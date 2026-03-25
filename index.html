@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BENOJIR AHMED ABIR</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Noto Sans Bengali', Arial, sans-serif;
+  background: linear-gradient(to right, #e6f0ff, #f4f4f4);
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background: rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  text-shadow: 0 0 10px rgba(255,255,255,0.8),
+               0 0 20px rgba(0,198,255,0.8);
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-top: 15px;
+}
+
+/* Menu */
+nav {
+  background: #055a87;
+  text-align: center;
+  padding: 12px;
+}
+
+nav a {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Section */
+section {
+  padding: 30px;
+}
+
+/* Glass Card */
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 12px;
+  max-width: 650px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #055a87;
+}
+
+/* Footer */
+footer {
+  background: #055a87;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Buttons */
+.whatsapp, .facebook, .gmail {
+  position: fixed;
+  right: 10px;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+/* WhatsApp */
+.whatsapp {
+  bottom: 20px;
+  background: #25D366;
+  box-shadow: 0 0 20px #25D366, 0 0 40px #25D366;
+}
+
+/* Facebook */
+.facebook {
+  bottom: 75px;
+  background: #1877F2;
+  box-shadow: 0 0 20px #1877F2, 0 0 40px #1877F2;
+}
+
+/* Gmail */
+.gmail {
+  bottom: 130px;
+  background: #EA4335;
+  box-shadow: 0 0 20px #EA4335, 0 0 40px #EA4335;
+}
+
+/* Hover */
+.whatsapp:hover, .facebook:hover, .gmail:hover {
+  transform: scale(1.2);
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.whatsapp, .facebook, .gmail {
+  animation: pulse 1s infinite;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>BENOJIR AHMED ABIR</h1>
+  <img src="abir.jpg" class="profile-img">
+  <p>ইলেকট্রিশিয়ান ও গ্রাফিক্স ডিজাইনার</p>
+</header>
+
+<nav>
+  <a href="#about">আমার সম্পর্কে</a>
+  <a href="#education">শিক্ষা</a>
+  <a href="#experience">অভিজ্ঞতা</a>
+  <a href="#contact">যোগাযোগ</a>
+</nav>
+
+<section id="about">
+  <h2>📌 আমার বায়োগ্রাফি</h2>
+  <div class="card">
+    <p><b>নাম:</b> বেনজির আহমেদ আবির</p>
+    <p><b>জন্ম তারিখ:</b> ০২ জুন ২০০৩</p>
+    <p><b>পেশা:</b> ইলেকট্রিশিয়ান</p>
+    <p><b>বর্তমান অবস্থান:</b> মক্কা, হেরাম শরীফ, সৌদি আরব</p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>🎓 শিক্ষাগত যোগ্যতা</h2>
+  <div class="card">
+    <p>আমি বাংলাদেশে রাজশাহী, বিভাগ, নওগাঁ জেলা, রাণীনগর,থানা রাতোয়াল,মাদ্রাসায় পড়াশোনা করেছি।</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>💼 অভিজ্ঞতা</h2>
+  <div class="card">
+    <p>🔌 ইলেকট্রিশিয়ান</p>
+    <p>🎨 গ্রাফিক্স ডিজাইনার</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📞 যোগাযোগ</h2>
+  <div class="card">
+    <p><b>📱 মোবাইল:</b> +966 532139446</p>
+    <p><b>📧 Gmail:</b> abirhoosain890@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 BENOJIR AHMED ABIR</p>
+</footer>
+
+<!-- Buttons -->
+<a href="mailto:abirhoosain890@gmail.com" class="gmail">📧 Gmail</a>
+<a href="https://www.facebook.com/benojirahmedabir" class="facebook">📘 Facebook</a>
+<a href="https://wa.me/966532139446" class="whatsapp">💬 WhatsApp</a>
+
+</body>
+</html>
